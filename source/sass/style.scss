@@ -1,26 +1,18 @@
 // default //
 
-//global
+// global
 @import "fonts";
 @import "reboot";
 
-//mixins
+// mixins
 @import "mixins";
 
-//variables
+// variables
 @import "variables";
 
 // custom
 // blocks
 @import "./blocks/main-header";
-@import "./blocks/main-nav";
-@import "./blocks/main-utils";
 @import "./blocks/main-container";
-@import "./blocks/preview";
-@import "./blocks/popular";
-@import "./blocks/cards-list";
-@import "./blocks/banner";
-@import "./blocks/catalog-link";
-@import "./blocks/news";
 @import "./blocks/main-footer";
 
