@@ -39,7 +39,7 @@
 // sass variables for mixins
 
 $tablet-width: 768px;
-$desktop-width: 1366px;
+$desktop-width: 1920px;
 $mobile-width: 320px;
 
 @mixin mobile-w {
@@ -72,19 +72,7 @@ $mobile-width: 320px;
 @mixin content {
   width: 100%;
   margin: 0 auto;
-  // max-width: var(--mobile-width);
-  padding-left: var(--mobile-padding);
-  padding-right: var(--mobile-padding);
-
-  @include tablet-w () {
-    // max-width: var(--tablet-width);
-    padding-left: var(--tablet-padding);
-    padding-right: var(--tablet-padding);
-  }
-
-  @include desktop-w () {
-    max-width: var(--desktop-width);
-    padding-left: var(--desktop-l-padding);
-    padding-right: var(--desktop-r-padding);
-  }
+  max-width: var(--desktop-width);
+  padding-left: var(--desktop-l-padding);
+  padding-right: var(--desktop-r-padding);
 }

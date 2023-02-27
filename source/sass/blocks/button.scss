@@ -1,0 +1,6 @@
+.button {
+  @include btnres;
+  border: 2px solid var(--green1);
+  border-radius: 40px;
+  color: var(--default-black);
+}
