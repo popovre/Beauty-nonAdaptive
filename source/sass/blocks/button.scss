@@ -1,6 +1,9 @@
 .button {
   @include btnres;
+  font-family: var(--main-font);
   border: 2px solid var(--green1);
   border-radius: 40px;
   color: var(--default-black);
+  font-size: 14px;
+  line-height: 16px;
 }
